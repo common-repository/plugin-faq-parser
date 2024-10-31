@@ -1,0 +1,20 @@
+{
+  "name": "plugin-faq-parser",
+  "version": "1.0.2",
+  "description": "Plugin FAQ Parser",
+  "main": "pluginfaq-block.js",
+  "scripts": {
+    "start": "wp-scripts start",
+    "build:pluginfaq-block": "wp-scripts build src/pluginfaq-block --output-path=dist",
+    "lint-js": "wp-scripts lint-js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Katsushi Kawamori",
+  "license": "GPL-2.0-or-later",
+  "devDependencies": {
+    "@wordpress/scripts": "24.3.0"
+  },
+  "dependencies": {
+    "@wordpress/server-side-render": "^3.17.0"
+  }
+}
